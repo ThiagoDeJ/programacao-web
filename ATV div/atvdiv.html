@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(235, 172, 35);
+        }
+        h1{
+            text-align: center;
+            margin-top: 1px;
+        }
+        form{
+            background-color: rgb(255, 254, 253);
+            padding: 55px;
+            border-radius: 8px;
+        }
+        div{
+            margin-bottom: 14px;
+            height: 90px;
+            padding: 6px;
+        }
+        label{
+           height: 10px;
+           font-family: sans-serif;
+           padding: 4px;
+        }
+        
+        input{
+            width: 100%;
+            padding: 14px;
+            box-sizing: border-box;
+            
+
+        }
+        button{
+            width: 100%;
+            padding: 18px;
+            background-color: rgb(219, 113, 14);
+            color: aliceblue;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+    <h1>Criar Conta</h1>
+    <div>
+        <label for="usuario" style="text-align: left;">Usuário</label>
+        <input type="text" name="usuario" id="usuario" placeholder="Digite seu Usuário" required>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="" id="email" placeholder="teste@exemplo.com" required>
+    </div>
+    <div>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" placeholder="Senha" required>
+    </div>
+    <div>
+        <label for="senh">Confirmar Senha</label>
+        <input type="password" name="senh" id="senh" placeholder="Confirmar Senha" required>
+    </div>
+    <button type="submit">Entrar</button>
+    </form>
+</body>
+</html>
